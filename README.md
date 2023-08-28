@@ -1,7 +1,6 @@
 # Portifolio-Luana-Caboz
 
-Site informativo para divulgação de projeto social.
-Projeto da disciplina de PW do Centro Universitário SENAC.
+Site informativo para divulgação de competências profissionais.
 
 ## Tarefas
 
