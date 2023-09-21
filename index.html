@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,25 +8,111 @@
     <title>Portifolio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
 
     <header>
         <h1>Luana Caboz</h1>
         <span>Developer Web e Mobile</span>
-        <a href = "#secao-apresentacao" class = "botao">saiba mais</a>
+        <a href="#secao-apresentacao" class="botao">saiba mais</a>
 
 
     </header>
 
-    <section id= "secao-apresentacao">
-        <img src= "https://media.licdn.com/dms/image/D4D03AQEy8_r1gqlY6w/profile-displayphoto-shrink_800_800/0/1680143997338?e=2147483647&v=beta&t=Mccrexl0utDklzd-M0Ht6Ukazc98L9LjnI7juzGq0jU" alt="Foto de perfil de Luana">
+    <section id="secao-apresentacao">
+        <img src="https://media.licdn.com/dms/image/D4D03AQEy8_r1gqlY6w/profile-displayphoto-shrink_800_800/0/1680143997338?e=2147483647&v=beta&t=Mccrexl0utDklzd-M0Ht6Ukazc98L9LjnI7juzGq0jU"
+            alt="Foto de perfil de Luana">
         <div>
-        <h2> Buscando oportunidades de exercitar meus aprendizados </h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sed blanditiis assumenda natus! Libero obcaecati alias in, quia nobis neque! Nesciunt quos molestiae velit itaque, hic ea accusantium quis sit?
-        </p>
-        <a href="#" class="botao" > ver projetos </a>
+            <h2> Buscando oportunidades de exercitar meus aprendizados </h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sed blanditiis assumenda natus! Libero
+                obcaecati alias in, quia nobis neque! Nesciunt quos molestiae velit itaque, hic ea accusantium quis sit?
+            </p>
+            <a href="#" class="botao"> ver projetos </a>
         </div>
     </section>
-    
+
+    <section id="secao-projetos">
+        <ul>
+            <li>
+                <div class="card">
+                    <div class="card-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1599837565318-67429bde7162?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGV2fGVufDB8MXwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="card-content">
+                        <h2>Titulo do Projeto</h2>
+                        <h3>Subtitulo do projeto</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque optio odio beatae consectetur
+                            iusto? Facilis ducimus sunt voluptates inventore enim architecto quo doloremque molestiae
+                            minus, voluptatibus voluptatem asperiores quas illo?</p>
+                        <a href="#" class="botao">detalhes</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card">
+                    <div class="card-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1599837565318-67429bde7162?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGV2fGVufDB8MXwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h2>Titulo do projeto</h2>
+                        <h3>Subtitulo do projeto</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque optio odio beatae consectetur
+                            iusto? Facilis ducimus sunt voluptates inventore enim architecto quo doloremque molestiae
+                            minus, voluptatibus voluptatem asperiores quas illo?</p>
+                        <a href="#" class="botao">detalhes</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section id="secao-orcamento">
+        <h2>Simule um orçamento para o seu site</h2>
+
+        <form action="" id="form-orcamento">
+            <div class="campo linha">
+                <laber for="nome">nome</label>
+                <input type="text" id="nome">
+                </div>
+
+                <div class="campo">
+                    <label for="qtde">qtd de páginas</label>:
+                    <input type="number" min="1" id="qtde">
+                </div>
+
+                <div class="campo">
+                    <label for="tipo">tipo</label>
+                    <select name="tipo" id="tipo">
+                        <option value="">estático</option>
+                        <option value="">dinâmico</option>
+                    </select>
+                </div>
+
+                <div class="campo linha">
+                    <label for="layout">precisa de layout?</label>
+                    <div>
+                        <input name="layout" type="radio" id="layout_sim">
+                        <label for="layout_sim">sim, preciso de layout</label>
+                        <input name="layout" type="radio" id="layout_nao">
+                        <label for="layout_nao">não, ja possuo layout</label>
+                    </div>
+                </div>
+
+                <div class="linha">
+                    <input type="checkbox" id="js">
+                    <label for="js">meu site precisa de javascript</label>
+                </div>
+
+                <div class="campo linha">
+                    <label for="prazo">prazo</label>
+                    <input type="range" id="prazo">
+                </div>
+        </form>
+    </section>    
+
 </body>
+
 </html>
